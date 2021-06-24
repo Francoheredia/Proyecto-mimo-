@@ -1,0 +1,30 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c0529;
+}
+
+.wrapper {
+  border: 1px solid blue;
+  width: 80vw;
+  height: 80%;
+}
+
+header {
+  height: 200px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header figure img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */
